@@ -1,0 +1,145 @@
+/* index.css */
+html, body, #root {
+    height: auto;
+    margin: auto;
+  }
+  
+  .bg-dark {
+    background-color: #343a40;
+  }
+
+/* AdminLogin.css */
+.admin-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('../imahges/2560x1024-one-piece-anime-4k_1541973574.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.admin-login {
+  background-color: rgba(270, 270, 270, 0.1); /* Adjust transparency here */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+.admin-login-title {
+  margin-bottom: 20px;
+  
+}
+
+.admin-login input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.admin-login button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.admin-login button:hover {
+  background-color: #0056b3;
+}
+
+.admin-login p {
+  margin-top: 10px;
+  color: red;
+  text-align: center;
+}
+/* addbook.css */
+.addbooks-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('../imahges/Roronoa-Zoro-anime-katana.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.addbooks-form-container {
+  background-color: rgba(0, 0, 0, 0.1); /* Adjust transparency here */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.addbooks-form-container .form-label {
+  color: white;
+}
+
+.addbooks-form-container .form-control {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: black;
+}
+
+.addbooks-form-container .btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.addbooks-form-container .btn:hover {
+  background-color: #218838;
+}
+
+.addbooks-form-container .btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
+}
+/* App.css */
+.Home-Page {
+  padding: 20px;
+}
+
+.book-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.book-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  max-width: 200px;
+  text-align: center;
+}
+
+.book-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+h5 {
+  margin: 10px 0;
+}
+
+p {
+  margin: 5px 0;
+}

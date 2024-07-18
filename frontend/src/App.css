@@ -1,0 +1,32 @@
+*{
+
+  margin: 0;
+  padding: 0;
+}
+.Home-Page {
+  background-color: #343a40; /* bg-dark */
+  color: #fff; /* text-white */
+}
+
+.viewbook{
+outline: none;
+border: 1px solid white;
+background-color: transparent;
+padding: 5px 20px 5px 20px;
+color: white;
+font-size: 20px;
+text-decoration: none;
+
+
+}
+.img{
+height: 80%;
+width: 80%;
+
+}
+
+.viewbook:hover{
+  background-color: #fff;
+  color: black;
+}
+
